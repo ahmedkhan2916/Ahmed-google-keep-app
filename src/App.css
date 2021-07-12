@@ -1,38 +1,146 @@
-.App {
-  text-align: center;
+.container-header{
+ display: flex;
+ background-color: #eaaf17;
+}
+img{
+  height: 6rem;
+  width: 14rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.heading-ahmed{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* font-size: xx-large; */
+  font-family: 'Staatliches', cursive;
+  color: rgb(255, 255, 255);
+}
+.footer-container{
+  position: fixed;
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  bottom: 0rem;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.Time{
   color: white;
+  font-size: 16px;
+}
+span{
+    font-size: 13px;
+    margin: 3px;
+}
+.text{
+  border: none;
+  height: 6rem;
+  margin: 49px 0rem;
+  width: 255px;
+  font-size: 15px;
+}
+.btn-container{
+  
+  display: flex;
+  /* justify-content: center; */
+  position: relative;
+  top: -85px;
+  justify-content: flex-end;
+
 }
 
-.App-link {
-  color: #61dafb;
+.createNOte{
+ position: relative;
+
+ /* background-color: blueviolet; */
+}
+::placeholder{
+  color: black;
+    font-family: 'Staatliches', cursive;
+}
+::placeholder{
+  color: grey;
+}
+input{
+  width: 255px;
+  margin: 22px 0px;
+  height: 25px;
+  border:none;
+  font-size: 18px;
+  position: absolute;
+}
+form{
+  box-shadow: 0 9px 9px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  width: 21%;
+  border-radius: 5px;
+  background-color: white;
+  height: 149px;
+  margin: 13px 34rem;
+  
+}
+form:hover {
+  box-shadow: 0 15px 16px 0 rgba(0,0,0,0.2);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.container-1{
+  background-color: chartreuse;
+}
+
+.btn-1{
+  /* position: relative; */
+  bottom: 76px;
+  font-size: 20px;
+  /* left: 243px; */
+  padding: 5px 11px;
+  background-color: yellow;
+  border: none;
+  border-radius: 50px;
+
+}
+.grid{
+  display: flex;
+  /* justify-content: space-evenly; */
+  flex-wrap: wrap;
+}
+.Note {
+  font-family: 'Staatliches', cursive;
+  box-shadow: 0 9px 9px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  width: 21%;
+  border-radius: 5px;
+  background-color: white;
+  height: 149px; 
+  margin: 13px 34rem;
+}
+
+.Note:hover{
+  box-shadow: 0 15px 16px 0 rgba(0,0,0,0.2);
+  
+}
+.btn-2{
+  padding:2px 3px;
+}
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 800px) {
+.container-header{
+  display: flex;
+  background-color: #fbb500;
+  flex-wrap: wrap;
+    
+}
+form{
+  margin-left: 1rem;
+}
+.Note{
+  margin-left: 1rem;
+}
 }
