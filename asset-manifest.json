@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Ahmed-google-keep-app/static/css/main.9cbfcf86.chunk.css",
+    "main.js": "/Ahmed-google-keep-app/static/js/main.eff5f3aa.chunk.js",
+    "main.js.map": "/Ahmed-google-keep-app/static/js/main.eff5f3aa.chunk.js.map",
+    "runtime-main.js": "/Ahmed-google-keep-app/static/js/runtime-main.28a18ca4.js",
+    "runtime-main.js.map": "/Ahmed-google-keep-app/static/js/runtime-main.28a18ca4.js.map",
+    "static/js/2.49500a77.chunk.js": "/Ahmed-google-keep-app/static/js/2.49500a77.chunk.js",
+    "static/js/2.49500a77.chunk.js.map": "/Ahmed-google-keep-app/static/js/2.49500a77.chunk.js.map",
+    "index.html": "/Ahmed-google-keep-app/index.html",
+    "static/css/main.9cbfcf86.chunk.css.map": "/Ahmed-google-keep-app/static/css/main.9cbfcf86.chunk.css.map",
+    "static/js/2.49500a77.chunk.js.LICENSE.txt": "/Ahmed-google-keep-app/static/js/2.49500a77.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28a18ca4.js",
+    "static/js/2.49500a77.chunk.js",
+    "static/css/main.9cbfcf86.chunk.css",
+    "static/js/main.eff5f3aa.chunk.js"
+  ]
+}
